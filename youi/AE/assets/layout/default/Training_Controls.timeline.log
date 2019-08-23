@@ -1,0 +1,22 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 144
+  targetname: "Btn-Next"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 145
+  targetname: "Btn-Prev"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

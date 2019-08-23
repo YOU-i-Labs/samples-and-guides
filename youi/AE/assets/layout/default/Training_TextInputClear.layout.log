@@ -1,0 +1,206 @@
+activecomp {
+  name: "Training_TextInputClear"
+  width: 60
+  height: 60
+  defaultcameradistance: 83.333336
+  layer {
+    name: "BG-Pink"
+    id: 49
+    sourceid: 154
+    transform {
+      anchorPoint {
+        x: 30
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 52
+  }
+  layer {
+    name: "X-1"
+    id: 50
+    sourceid: 180
+    transform {
+      anchorPoint {
+        x: 20
+        y: 4
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 0.6
+        z: 1
+      }
+      position {
+        x: 0
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 45
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 52
+  }
+  layer {
+    name: "X-2"
+    id: 51
+    sourceid: 182
+    transform {
+      anchorPoint {
+        x: 20
+        y: 4
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 0.6
+        z: 1
+      }
+      position {
+        x: 0
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 135
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 52
+  }
+  layer {
+    name: "Scaler"
+    id: 52
+    sourceid: 153
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 30
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+}
+sources {
+  uid: 154
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.87450981140136719
+    green: 0.11372549086809158
+    blue: 0.27450981736183167
+  }
+  width: 60
+  height: 60
+  copy_source: false
+}
+sources {
+  uid: 180
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 40
+  height: 8
+  copy_source: false
+}
+sources {
+  uid: 182
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 40
+  height: 8
+  copy_source: false
+}
+sources {
+  uid: 153
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+  copy_source: false
+}

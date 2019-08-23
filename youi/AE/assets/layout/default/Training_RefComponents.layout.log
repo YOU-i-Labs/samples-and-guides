@@ -1,0 +1,745 @@
+activecomp {
+  name: "Training_RefComponents"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.6667
+  layer {
+    name: "Background"
+    id: 233
+    sourceid: 60
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Img-16x9"
+    id: 234
+    sourceid: 80
+    transform {
+      anchorPoint {
+        x: 360
+        y: 202.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 456
+        y: 307
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Overlay"
+    id: 235
+    sourceid: 167
+    transform {
+      anchorPoint {
+        x: 960
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1055
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Small"
+    id: 236
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 271
+        y: 632
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "List-Small"
+    id: 237
+    sourceid: 62
+    transform {
+      anchorPoint {
+        x: 425
+        y: 202.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1402.1892
+        y: 307
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "TextInput"
+    id: 238
+    sourceid: 104
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 641
+        y: 632
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Video"
+    id: 239
+    sourceid: 126
+    transform {
+      anchorPoint {
+        x: 320
+        y: 180
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1299.1892
+        y: 782
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "ImageRef"
+    id: 240
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 177.63776
+        y: 92.083084
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "ImageRef"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "ButtonRef"
+    id: 241
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 183.57971
+        y: 590.29443
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "ButtonRef"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "ViewRef"
+    id: 242
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 168.25955
+        y: 749.86621
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "ViewRef"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "TextInputRef"
+    id: 243
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 578.05396
+        y: 585.46564
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "TextInputRef"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "ListRef"
+    id: 244
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1035.627
+        y: 97.521317
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "ListRef"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "VideoRef"
+    id: 245
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1059.9805
+        y: 590.83136
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "VideoRef"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "View"
+    id: 246
+    sourceid: 258209
+    transform {
+      anchorPoint {
+        x: 360
+        y: 100
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 456
+        y: 862
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Pause"
+    id: 247
+    sourceid: 258291
+    transform {
+      anchorPoint {
+        x: 100
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1727.1892
+        y: 702
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Play"
+    id: 248
+    sourceid: 258291
+    transform {
+      anchorPoint {
+        x: 100
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1727.1892
+        y: 632
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  childtemplates: "Training_Img-16x9"
+  childtemplates: "Training_Overlay"
+  childtemplates: "Training_Btn-Small"
+  childtemplates: "Training_List-Small"
+  childtemplates: "Training_TextInput"
+  childtemplates: "Training_Video"
+  childtemplates: "Training_View"
+  childtemplates: "Training_Btn-Video"
+}
+sources {
+  uid: 60
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.18823529779911041
+    green: 0.18823529779911041
+    blue: 0.18823529779911041
+  }
+  width: 1920
+  height: 1080
+  copy_source: false
+}
+sources {
+  uid: 80
+  srctype: AE_COMP_SRC
+  name: "Training_Img-16x9.layout"
+  width: 720
+  height: 405
+  copy_source: true
+}
+sources {
+  uid: 167
+  srctype: AE_COMP_SRC
+  name: "Training_Overlay.layout"
+  width: 1920
+  height: 50
+  copy_source: true
+}
+sources {
+  uid: 34
+  srctype: AE_COMP_SRC
+  name: "Training_Btn-Small.layout"
+  width: 350
+  height: 60
+  copy_source: true
+}
+sources {
+  uid: 62
+  srctype: AE_COMP_SRC
+  name: "Training_List-Small.layout"
+  width: 850
+  height: 405
+  copy_source: true
+}
+sources {
+  uid: 104
+  srctype: AE_COMP_SRC
+  name: "Training_TextInput.layout"
+  width: 350
+  height: 60
+  copy_source: true
+}
+sources {
+  uid: 126
+  srctype: AE_COMP_SRC
+  name: "Training_Video.layout"
+  width: 640
+  height: 360
+  copy_source: true
+}
+sources {
+  uid: 8
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 258209
+  srctype: AE_COMP_SRC
+  name: "Training_View.layout"
+  width: 720
+  height: 200
+  copy_source: true
+}
+sources {
+  uid: 258291
+  srctype: AE_COMP_SRC
+  name: "Training_Btn-Video.layout"
+  width: 200
+  height: 60
+  copy_source: true
+}

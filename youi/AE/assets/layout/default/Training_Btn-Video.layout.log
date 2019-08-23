@@ -1,0 +1,288 @@
+activecomp {
+  name: "Training_Btn-Video"
+  width: 200
+  height: 60
+  defaultcameradistance: 277.77777
+  layer {
+    name: "Background"
+    id: 258291
+    sourceid: 46
+    transform {
+      anchorPoint {
+        x: 100
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 100
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Text"
+    id: 258292
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 99.70166
+        y: 39.085876
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 26
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "Button"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "Left"
+    id: 258293
+    sourceid: 258493
+    transform {
+      anchorPoint {
+        x: 1
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Right"
+    id: 258294
+    sourceid: 258493
+    transform {
+      anchorPoint {
+        x: 1
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 199
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Top"
+    id: 258295
+    sourceid: 258504
+    transform {
+      anchorPoint {
+        x: 100
+        y: 1
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 100
+        y: 1
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Bottom"
+    id: 258296
+    sourceid: 258504
+    transform {
+      anchorPoint {
+        x: 100
+        y: 1
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 100
+        y: 59
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+}
+sources {
+  uid: 46
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.85490196943283081
+    green: 0.10588235408067703
+    blue: 0.35686275362968445
+  }
+  width: 200
+  height: 60
+  copy_source: false
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 258493
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.85490196943283081
+    green: 0.10588235408067703
+    blue: 0.35686275362968445
+  }
+  width: 2
+  height: 60
+  copy_source: false
+}
+sources {
+  uid: 258504
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.85490202903747559
+    green: 0.10588199645280838
+    blue: 0.35686299204826355
+  }
+  width: 200
+  height: 2
+  copy_source: false
+}

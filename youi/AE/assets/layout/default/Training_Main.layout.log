@@ -1,0 +1,160 @@
+activecomp {
+  name: "Training_Main"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.6667
+  layer {
+    name: "Background"
+    id: 1
+    sourceid: 60
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Overlay"
+    id: 2
+    sourceid: 167
+    transform {
+      anchorPoint {
+        x: 960
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1055.5
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Info"
+    id: 3
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960.37714
+        y: 552.01245
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 42
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "You.i Engine - React Native Training File"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  childtemplates: "Training_Overlay"
+}
+sources {
+  uid: 60
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.18823529779911041
+    green: 0.18823529779911041
+    blue: 0.18823529779911041
+  }
+  width: 1920
+  height: 1080
+  copy_source: false
+}
+sources {
+  uid: 167
+  srctype: AE_COMP_SRC
+  name: "Training_Overlay.layout"
+  width: 1920
+  height: 50
+  copy_source: true
+}
+sources {
+  uid: 3
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}

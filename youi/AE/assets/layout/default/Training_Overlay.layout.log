@@ -1,0 +1,118 @@
+activecomp {
+  name: "Training_Overlay"
+  width: 1920
+  height: 50
+  defaultcameradistance: 2666.6667
+  layer {
+    name: "Background"
+    id: 167
+    sourceid: 165
+    transform {
+      anchorPoint {
+        x: 960
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 25
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Info"
+    id: 168
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 958.52142
+        y: 33.975098
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    ishidden: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 32
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "You.i Engine - React Native Training File"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+}
+sources {
+  uid: 165
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.0313725508749485
+    green: 0.019607843831181526
+    blue: 0.043137256056070328
+  }
+  width: 1920
+  height: 50
+  copy_source: false
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}

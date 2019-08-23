@@ -1,0 +1,172 @@
+activecomp {
+  name: "Training_List-Large"
+  width: 1560
+  height: 810
+  defaultcameradistance: 2166.6667
+  layer {
+    name: "Btn-Medium"
+    id: 258475
+    sourceid: 23
+    transform {
+      anchorPoint {
+        x: 135
+        y: 202.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1070
+        y: 405
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Btn-Medium"
+    id: 258476
+    sourceid: 23
+    transform {
+      anchorPoint {
+        x: 135
+        y: 202.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 780
+        y: 405
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Btn-Medium"
+    id: 258477
+    sourceid: 23
+    transform {
+      anchorPoint {
+        x: 135
+        y: 202.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 490
+        y: 405
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  classname: "CYIListView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentSubtype"
+    value: "streaming"
+  }
+  properties {
+    key: "componentType"
+    value: "list"
+  }
+  properties {
+    key: "layout"
+    value: "CYIGridLayout"
+  }
+  properties {
+    key: "columns"
+    value: "3"
+  }
+  properties {
+    key: "uniform-columns"
+    value: "true"
+  }
+  properties {
+    key: "spacing"
+    value: "36"
+  }
+  properties {
+    key: "gravity"
+    value: "top"
+  }
+  properties {
+    key: "clip"
+    value: "false"
+  }
+  properties {
+    key: "insert-after-layer-id"
+    value: "-1"
+  }
+  childtemplates: "Training_Btn-Medium"
+}
+sources {
+  uid: 23
+  srctype: AE_COMP_SRC
+  name: "Training_Btn-Medium.layout"
+  width: 270
+  height: 405
+  copy_source: true
+}

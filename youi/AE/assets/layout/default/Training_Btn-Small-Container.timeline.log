@@ -1,0 +1,11 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 194
+  targetname: "Btn-Small"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

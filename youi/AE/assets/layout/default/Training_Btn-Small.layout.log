@@ -1,0 +1,329 @@
+activecomp {
+  name: "Training_Btn-Small"
+  width: 350
+  height: 60
+  defaultcameradistance: 486.11111
+  layer {
+    name: "Background"
+    id: 34
+    sourceid: 258498
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 175
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Text"
+    id: 35
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 174.54077
+        y: 39.085876
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 26
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "Button"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "Bottom"
+    id: 36
+    sourceid: 258490
+    transform {
+      anchorPoint {
+        x: 175
+        y: 1
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 175
+        y: 59
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Top"
+    id: 37
+    sourceid: 258490
+    transform {
+      anchorPoint {
+        x: 175
+        y: 1
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 175
+        y: 1
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Right"
+    id: 38
+    sourceid: 258493
+    transform {
+      anchorPoint {
+        x: 1
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 349
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Left"
+    id: 39
+    sourceid: 258493
+    transform {
+      anchorPoint {
+        x: 1
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Ctrl"
+    id: 40
+    sourceid: 258496
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 175
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+}
+sources {
+  uid: 258498
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.85490202903747559
+    green: 0.10588199645280838
+    blue: 0.35686299204826355
+  }
+  width: 350
+  height: 60
+  copy_source: false
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 258490
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.85490196943283081
+    green: 0.10588235408067703
+    blue: 0.35686275362968445
+  }
+  width: 350
+  height: 2
+  copy_source: false
+}
+sources {
+  uid: 258493
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.85490196943283081
+    green: 0.10588235408067703
+    blue: 0.35686275362968445
+  }
+  width: 2
+  height: 60
+  copy_source: false
+}
+sources {
+  uid: 258496
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+  copy_source: false
+}

@@ -1,0 +1,68 @@
+activecomp {
+  name: "Training_Lrg-Btn"
+  width: 500
+  height: 750
+  defaultcameradistance: 694.44446
+  layer {
+    name: "Light Gray Solid 3"
+    id: 12
+    sourceid: 50
+    transform {
+      anchorPoint {
+        x: 250
+        y: 375
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 250
+        y: 375
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+}
+sources {
+  uid: 50
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.0313725508749485
+    green: 0.019607843831181526
+    blue: 0.043137256056070328
+  }
+  width: 500
+  height: 750
+  copy_source: false
+}

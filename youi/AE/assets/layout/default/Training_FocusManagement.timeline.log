@@ -1,0 +1,54 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258373
+  targetname: "Background"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258374
+  targetname: "Overlay"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258375
+  targetname: "Sidebar"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+markers {
+  starttime: 2
+  duration: 2
+  name: "Loop"
+  alltracks: false
+  looping: false
+}
+markers {
+  starttime: 6
+  duration: 2
+  name: "Forward"
+  alltracks: false
+  looping: false
+}
+markers {
+  starttime: 10
+  duration: 2
+  name: "Reverse"
+  alltracks: false
+  looping: false
+}

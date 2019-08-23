@@ -1,0 +1,230 @@
+activecomp {
+  name: "Training_Btn-Medium"
+  width: 270
+  height: 405
+  defaultcameradistance: 375
+  layer {
+    name: "Img-2x3"
+    id: 23
+    sourceid: 206
+    transform {
+      anchorPoint {
+        x: 135
+        y: 202.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 135
+        y: 202.5
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Bottom"
+    id: 24
+    sourceid: 258519
+    transform {
+      anchorPoint {
+        x: 150
+        y: 2
+        z: 0
+      }
+      scale {
+        x: 0.95238096
+        y: 0.95238096
+        z: 1
+      }
+      position {
+        x: 135
+        y: 414.40475
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 23
+  }
+  layer {
+    name: "Top"
+    id: 25
+    sourceid: 258519
+    transform {
+      anchorPoint {
+        x: 150
+        y: 2
+        z: 0
+      }
+      scale {
+        x: 0.95238096
+        y: 0.95238096
+        z: 1
+      }
+      position {
+        x: 135
+        y: -9.4047623
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 23
+  }
+  layer {
+    name: "Left"
+    id: 26
+    sourceid: 258522
+    transform {
+      anchorPoint {
+        x: 2
+        y: 225
+        z: 0
+      }
+      scale {
+        x: 0.95238096
+        y: 0.95238096
+        z: 1
+      }
+      position {
+        x: -8.8095236
+        y: 202.5
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 23
+  }
+  layer {
+    name: "Right"
+    id: 27
+    sourceid: 258522
+    transform {
+      anchorPoint {
+        x: 2
+        y: 225
+        z: 0
+      }
+      scale {
+        x: 0.95238096
+        y: 0.95238096
+        z: 1
+      }
+      position {
+        x: 278.80951
+        y: 202.5
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 23
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  childtemplates: "Training_Img-2x3"
+}
+sources {
+  uid: 206
+  srctype: AE_COMP_SRC
+  name: "Training_Img-2x3.layout"
+  width: 270
+  height: 405
+  copy_source: true
+}
+sources {
+  uid: 258519
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509804248809814
+    green: 0.94509804248809814
+    blue: 0.94509804248809814
+  }
+  width: 300
+  height: 4
+  copy_source: false
+}
+sources {
+  uid: 258522
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509798288345337
+    green: 0.94509798288345337
+    blue: 0.94509798288345337
+  }
+  width: 4
+  height: 450
+  copy_source: false
+}

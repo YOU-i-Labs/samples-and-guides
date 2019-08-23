@@ -1,0 +1,418 @@
+activecomp {
+  name: "Training_Timelines"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.6667
+  layer {
+    name: "Background"
+    id: 258230
+    sourceid: 60
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Overlay"
+    id: 258231
+    sourceid: 167
+    transform {
+      anchorPoint {
+        x: 960
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1055
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "BackAndForthSolid"
+    id: 258232
+    sourceid: 258264
+    transform {
+      anchorPoint {
+        x: 25
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 100
+        y: 560
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "ForwardSolid"
+    id: 258233
+    sourceid: 258264
+    transform {
+      anchorPoint {
+        x: 25
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 100
+        y: 360
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "LoopingSolid"
+    id: 258234
+    sourceid: 258264
+    transform {
+      anchorPoint {
+        x: 25
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 100
+        y: 160
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Back and Forth Timeline"
+    id: 258235
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 288.63135
+        y: 520
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "Back and Forth Timeline"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "Forward Timeline"
+    id: 258236
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 226.4968
+        y: 320
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "Forward Timeline"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "Looping Timeline"
+    id: 258237
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 225.56021
+        y: 120
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "Looping Timeline"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "Btn-Small"
+    id: 258238
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 926
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.77647058823529413
+    green: 0.77647058823529413
+    blue: 0.77647058823529413
+  }
+  childtemplates: "Training_Overlay"
+  childtemplates: "Training_Btn-Small"
+}
+sources {
+  uid: 60
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.18823529779911041
+    green: 0.18823529779911041
+    blue: 0.18823529779911041
+  }
+  width: 1920
+  height: 1080
+  copy_source: false
+}
+sources {
+  uid: 167
+  srctype: AE_COMP_SRC
+  name: "Training_Overlay.layout"
+  width: 1920
+  height: 50
+  copy_source: true
+}
+sources {
+  uid: 258264
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.87450981140136719
+    green: 0.11372549086809158
+    blue: 0.27450981736183167
+  }
+  width: 50
+  height: 50
+  copy_source: false
+}
+sources {
+  uid: 4
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 34
+  srctype: AE_COMP_SRC
+  name: "Training_Btn-Small.layout"
+  width: 350
+  height: 60
+  copy_source: true
+}

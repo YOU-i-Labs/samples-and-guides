@@ -1,0 +1,64 @@
+activecomp {
+  name: "Training_Img-2x3"
+  width: 270
+  height: 405
+  defaultcameradistance: 375
+  layer {
+    name: "ImageNode"
+    id: 206
+    sourceid: 218
+    transform {
+      anchorPoint {
+        x: 135
+        y: 202.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 135
+        y: 202.5
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 218
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.0313725508749485
+    green: 0.019607843831181526
+    blue: 0.043137256056070328
+  }
+  width: 270
+  height: 405
+  copy_source: false
+}

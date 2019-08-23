@@ -1,0 +1,89 @@
+activecomp {
+  name: "Training_Controls"
+  width: 530
+  height: 63
+  defaultcameradistance: 736.11108
+  layer {
+    name: "Btn-Next"
+    id: 144
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 284
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Prev"
+    id: 145
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  childtemplates: "Training_Btn-Small"
+}
+sources {
+  uid: 34
+  srctype: AE_COMP_SRC
+  name: "Training_Btn-Small.layout"
+  width: 350
+  height: 60
+  copy_source: true
+}

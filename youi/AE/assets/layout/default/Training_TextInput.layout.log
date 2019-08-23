@@ -1,0 +1,430 @@
+activecomp {
+  name: "Training_TextInput"
+  width: 350
+  height: 60
+  defaultcameradistance: 486.11111
+  layer {
+    name: "Background"
+    id: 104
+    sourceid: 258525
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 175
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0.5
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Top"
+    id: 105
+    sourceid: 258511
+    transform {
+      anchorPoint {
+        x: 175
+        y: 1
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 175
+        y: 1
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Bottom"
+    id: 106
+    sourceid: 258511
+    transform {
+      anchorPoint {
+        x: 175
+        y: 1
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 175
+        y: 59
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Left"
+    id: 107
+    sourceid: 258514
+    transform {
+      anchorPoint {
+        x: 1
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Right"
+    id: 108
+    sourceid: 258514
+    transform {
+      anchorPoint {
+        x: 1
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 349
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "InputProperties"
+    id: 109
+    sourceid: 152
+    transform {
+      anchorPoint {
+        x: 25
+        y: 72.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 298.84836
+        y: -5.3947754
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 111
+  }
+  layer {
+    name: "Text-BG"
+    id: 110
+    sourceid: 258517
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 175
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Text"
+    id: 111
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 17.151642
+        y: 39.714294
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_LEFT
+      fontSize: 26
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Bold"
+      isPointText: true
+      isLabel: true
+      text: "Default Text"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "Clear"
+    id: 112
+    sourceid: 49
+    transform {
+      anchorPoint {
+        x: 30
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 322
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIPasswordTextEditView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentType"
+    value: "input"
+  }
+  properties {
+    key: "componentSubtype"
+    value: "protected"
+  }
+  properties {
+    key: "caret-color"
+    value: "#F1F1F1"
+  }
+  childtemplates: "Training_TextInputClear"
+}
+sources {
+  uid: 258525
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.0313725508749485
+    green: 0.019607843831181526
+    blue: 0.043137256056070328
+  }
+  width: 350
+  height: 60
+  copy_source: false
+}
+sources {
+  uid: 258511
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509804248809814
+    green: 0.94509804248809814
+    blue: 0.94509804248809814
+  }
+  width: 350
+  height: 2
+  copy_source: false
+}
+sources {
+  uid: 258514
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509798288345337
+    green: 0.94509798288345337
+    blue: 0.94509798288345337
+  }
+  width: 2
+  height: 60
+  copy_source: false
+}
+sources {
+  uid: 152
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509804248809814
+    green: 0.94509804248809814
+    blue: 0.94509804248809814
+  }
+  width: 50
+  height: 145
+  copy_source: false
+}
+sources {
+  uid: 258517
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.85490196943283081
+    green: 0.10588235408067703
+    blue: 0.35686275362968445
+  }
+  width: 350
+  height: 60
+  copy_source: false
+}
+sources {
+  uid: 6
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 49
+  srctype: AE_COMP_SRC
+  name: "Training_TextInputClear.layout"
+  width: 60
+  height: 60
+  copy_source: true
+}

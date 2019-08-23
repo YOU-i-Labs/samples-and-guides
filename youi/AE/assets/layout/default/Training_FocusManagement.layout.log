@@ -1,0 +1,145 @@
+activecomp {
+  name: "Training_FocusManagement"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.6667
+  layer {
+    name: "Background"
+    id: 258373
+    sourceid: 60
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Overlay"
+    id: 258374
+    sourceid: 167
+    transform {
+      anchorPoint {
+        x: 960
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1055
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Sidebar"
+    id: 258375
+    sourceid: 258400
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.77647058823529413
+    green: 0.77647058823529413
+    blue: 0.77647058823529413
+  }
+  childtemplates: "Training_Overlay"
+  childtemplates: "Training_Sidebar"
+}
+sources {
+  uid: 60
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.18823529779911041
+    green: 0.18823529779911041
+    blue: 0.18823529779911041
+  }
+  width: 1920
+  height: 1080
+  copy_source: false
+}
+sources {
+  uid: 167
+  srctype: AE_COMP_SRC
+  name: "Training_Overlay.layout"
+  width: 1920
+  height: 50
+  copy_source: true
+}
+sources {
+  uid: 258400
+  srctype: AE_COMP_SRC
+  name: "Training_Sidebar.layout"
+  width: 400
+  height: 1030
+  copy_source: true
+}

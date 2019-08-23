@@ -1,0 +1,259 @@
+activecomp {
+  name: "Training_Sidebar"
+  width: 400
+  height: 1030
+  defaultcameradistance: 555.55554
+  layer {
+    name: "Btn-Small"
+    id: 258400
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 192.85715
+        y: 244.66667
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Small"
+    id: 258401
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 192.85715
+        y: 383.33334
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Small"
+    id: 258402
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 192.85715
+        y: 522
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Small"
+    id: 258403
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 192.85715
+        y: 660.66669
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Small"
+    id: 258404
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 192.85715
+        y: 799.33331
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Small"
+    id: 258405
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 192.85715
+        y: 938
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Small"
+    id: 258406
+    sourceid: 34
+    transform {
+      anchorPoint {
+        x: 175
+        y: 30
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 192.85715
+        y: 106
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.77647058823529413
+    green: 0.77647058823529413
+    blue: 0.77647058823529413
+  }
+  childtemplates: "Training_Btn-Small"
+}
+sources {
+  uid: 34
+  srctype: AE_COMP_SRC
+  name: "Training_Btn-Small.layout"
+  width: 350
+  height: 60
+  copy_source: true
+}

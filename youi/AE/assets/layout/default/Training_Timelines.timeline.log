@@ -1,0 +1,304 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258230
+  targetname: "Background"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258231
+  targetname: "Overlay"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258232
+  targetname: "BackAndForthSolid"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: POSITION
+  targetid: 258232
+  targetname: "BackAndForthSolid"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 100
+    fvalue2: 560
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 6
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -286.66666
+    sInTangentY: -0
+    sInTangentZ: -0
+    sOutTangentX: 286.66666
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 100
+    fvalue2: 560
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 8
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -286.66666
+    sInTangentY: -0
+    sInTangentZ: -0
+    sOutTangentX: 0
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 1820
+    fvalue2: 560
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 10
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: 0
+    sInTangentY: 0
+    sInTangentZ: 0
+    sOutTangentX: -286.66666
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 1820
+    fvalue2: 560
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 12
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: 286.66666
+    sInTangentY: -0
+    sInTangentZ: -0
+    sOutTangentX: -286.66666
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 100
+    fvalue2: 560
+    fvalue3: 0
+  }
+  trackName: "Position"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258233
+  targetname: "ForwardSolid"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: POSITION
+  targetid: 258233
+  targetname: "ForwardSolid"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 100
+    fvalue2: 360
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 6
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -286.66666
+    sInTangentY: -0
+    sInTangentZ: -0
+    sOutTangentX: 286.66666
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 100
+    fvalue2: 360
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 8
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -286.66666
+    sInTangentY: -0
+    sInTangentZ: -0
+    sOutTangentX: 286.66666
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 1820
+    fvalue2: 360
+    fvalue3: 0
+  }
+  trackName: "Position"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258234
+  targetname: "LoopingSolid"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: POSITION
+  targetid: 258234
+  targetname: "LoopingSolid"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 100
+    fvalue2: 160
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.05
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -286.66666
+    sInTangentY: -0
+    sInTangentZ: -0
+    sOutTangentX: 286.66666
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 100
+    fvalue2: 160
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 4
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -286.66666
+    sInTangentY: -0
+    sInTangentZ: -0
+    sOutTangentX: 0
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 1820
+    fvalue2: 160
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 12.216666
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -0
+    sInTangentY: -0
+    sInTangentZ: -0
+    sOutTangentX: 0
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 1820
+    fvalue2: 160
+    fvalue3: 0
+  }
+  trackName: "Position"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258235
+  targetname: "Back and Forth Timeline"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258236
+  targetname: "Forward Timeline"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258237
+  targetname: "Looping Timeline"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258238
+  targetname: "Btn-Small"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+markers {
+  starttime: 2
+  duration: 2
+  name: "Loop"
+  tracksSelection {
+    targetid: 258234
+    binding: POSITION
+  }
+  alltracks: false
+  looping: false
+}
+markers {
+  starttime: 6
+  duration: 2
+  name: "Forward"
+  tracksSelection {
+    targetid: 258232
+    binding: POSITION
+  }
+  tracksSelection {
+    targetid: 258233
+    binding: POSITION
+  }
+  alltracks: false
+  looping: false
+}
+markers {
+  starttime: 10
+  duration: 2
+  name: "Reverse"
+  tracksSelection {
+    targetid: 258232
+    binding: POSITION
+  }
+  alltracks: false
+  looping: false
+}

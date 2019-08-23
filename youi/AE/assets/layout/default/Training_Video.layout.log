@@ -1,0 +1,130 @@
+activecomp {
+  name: "Training_Video"
+  width: 640
+  height: 360
+  defaultcameradistance: 888.88892
+  layer {
+    name: "Background"
+    id: 126
+    sourceid: 140
+    transform {
+      anchorPoint {
+        x: 320
+        y: 180
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 320
+        y: 180
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Video Surface"
+    id: 127
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 320.21124
+        y: 206.031
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 36
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      isPointText: true
+      isLabel: true
+      text: "Video Surface"
+      multiline: false
+      isAllCaps: false
+    }
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  classname: "CYIVideoSurfaceView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentType"
+    value: "videoSurface"
+  }
+  properties {
+    key: "insert-after-layer-id"
+    value: "126"
+  }
+}
+sources {
+  uid: 140
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.0313725508749485
+    green: 0.019607843831181526
+    blue: 0.043137256056070328
+  }
+  width: 640
+  height: 360
+  copy_source: false
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}

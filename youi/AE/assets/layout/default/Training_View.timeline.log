@@ -1,0 +1,22 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258209
+  targetname: "Light Gray Solid 5"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 258210
+  targetname: "Text"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

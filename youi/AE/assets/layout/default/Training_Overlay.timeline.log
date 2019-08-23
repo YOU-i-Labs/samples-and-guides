@@ -1,0 +1,28 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 167
+  targetname: "Background"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 168
+  targetname: "Info"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 0
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0.033333335
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

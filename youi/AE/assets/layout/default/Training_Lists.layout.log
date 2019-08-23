@@ -1,0 +1,145 @@
+activecomp {
+  name: "Training_Lists"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.6667
+  layer {
+    name: "Background"
+    id: 258444
+    sourceid: 60
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Overlay"
+    id: 258445
+    sourceid: 167
+    transform {
+      anchorPoint {
+        x: 960
+        y: 25
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1055.5
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "List-Large"
+    id: 258446
+    sourceid: 258475
+    transform {
+      anchorPoint {
+        x: 780
+        y: 405
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 520
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  childtemplates: "Training_Overlay"
+  childtemplates: "Training_List-Large"
+}
+sources {
+  uid: 60
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.18823529779911041
+    green: 0.18823529779911041
+    blue: 0.18823529779911041
+  }
+  width: 1920
+  height: 1080
+  copy_source: false
+}
+sources {
+  uid: 167
+  srctype: AE_COMP_SRC
+  name: "Training_Overlay.layout"
+  width: 1920
+  height: 50
+  copy_source: true
+}
+sources {
+  uid: 258475
+  srctype: AE_COMP_SRC
+  name: "Training_List-Large.layout"
+  width: 1560
+  height: 810
+  copy_source: true
+}
