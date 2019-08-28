@@ -19,6 +19,7 @@ import { Basics,
   DRM  } from './samples';
 
 const modules = [Basics, Compositions, RefComponents, Timelines, FocusManagement, Lists, NativeModules, InputHandler, DRM];
+const modulesStrings = ['Basics', 'Compositions', 'RefComponents', 'Timelines', 'FocusManagement', 'Lists', 'NativeModules', 'InputHandler', 'DRM'];
 
 export default class YiReactApp extends Component {
   constructor() {
@@ -41,7 +42,7 @@ export default class YiReactApp extends Component {
       this.setState({ screen: null });
     });
     this.buttonStacks = modules.map((module, index) => <View style={{ alignSelf: 'flex-start' }} key={index}>
-      <Text style={{ fontSize: 16, marginTop: 5, marginLeft: 10, color: 'white' }}>Module {index + 1}</Text>
+      <Text style={{ fontSize: 16, marginTop: 5, marginLeft: 10, color: 'white' }}>{modulesStrings[index]}</Text>
       <View style={{ flexDirection: 'row', alignContent: 'flex-start', alignItems: 'flex-start' }}>
         {Object.keys(module).map(name =>
         <TouchableHighlight underlayColor={'#F1F1F166'} style={styles.highlight} key={name} onPress={() => this.setState({ screen: module[name], backgroundColor: '#F1F1F1FF' })}><Text style={styles.text}>{module[name].name}</Text></TouchableHighlight>)}
