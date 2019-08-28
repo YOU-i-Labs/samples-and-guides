@@ -14,6 +14,7 @@ import * as FocusManagement from './focus-management';
 import * as Lists from './lists';
 import * as NativeModules from './native-modules';
 import * as InputHandler from './input-handler';
+import * as DRM from './drm';
 
 export {
   Basics,
@@ -24,4 +25,5 @@ export {
   Lists,
   NativeModules,
   InputHandler,
+  DRM,
 };

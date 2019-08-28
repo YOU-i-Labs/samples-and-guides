@@ -15,6 +15,8 @@
 #include "../../samples/native-modules/cpp/1-native-module.h"
 #include "../../samples/native-modules/cpp/2-native-component.h"
 
+#include <youireact/modules/drm/FairPlayDrmHandlerModule.h>
+
 App::App() = default;
 
 App::~App() = default;
@@ -46,6 +48,7 @@ bool App::UserInit()
     auto init = PlatformApp::UserInit();
     GetReactNativeViewController().AddModule<NativeLogger>();
     GetReactNativeViewController().AddViewModule<NativeComponentSample>();
+    GetReactNativeViewController().AddModule<FairPlayDrmHandlerModule>();
     return init;
 }
 

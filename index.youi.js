@@ -15,9 +15,10 @@ import { Basics,
   FocusManagement,
   Lists,
   NativeModules,
-  InputHandler  } from './samples';
+  InputHandler,
+  DRM  } from './samples';
 
-const modules = [Basics, Compositions, RefComponents, Timelines, FocusManagement, Lists, NativeModules, InputHandler];
+const modules = [Basics, Compositions, RefComponents, Timelines, FocusManagement, Lists, NativeModules, InputHandler, DRM];
 
 export default class YiReactApp extends Component {
   constructor() {
