@@ -41,16 +41,22 @@ ps4, linux`
 
 For example, to build for OSX:
 ```shell
+cd youi
 ./generate.rb -p osx [-c debug|release]
 ./build.rb -b build/osx [-c debug|release]
 ```
 For additional information on the build scripts please refer to [this
 page.](https://developer.youi.tv/latest/Content/RN_BuildingAppsTopics/H2RNBuildProc.htm)
 
-Finally, start Metro bundler and run the app:
+Start Metro bundler:
 ```shell
-yarn start
-open youi/build/osx/Debug/Auryn
+yarn start &
+```
+
+Run the app:
+```shell
+# from within the `youi` folder
+open build/osx/Debug/Training
 ```
 
 ## Debugging
