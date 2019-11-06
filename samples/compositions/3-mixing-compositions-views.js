@@ -7,16 +7,18 @@
  */
 
 import React, { Component } from 'react';
-import { Composition, View, Button } from '@youi/react-native-youi';
+import { Composition, View } from '@youi/react-native-youi';
+import { PixelRatio } from 'react-native';
+import { StyledButton } from '../../components/styledButton';
 
 export class MixingCompositionsViews extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.buttonContainer}>
-          <Button color="white" title="JSX Button"/>
+        <StyledButton title="JSX Button"/>
+        <View style={{ width: 350 / PixelRatio.get(), height: 60 / PixelRatio.get() }}>
+          <Composition source="Training_Btn-Small"/>
         </View>
-        <Composition source="Training_Btn-Small"/>
       </View>
     );
   }
@@ -28,14 +30,5 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  buttonContainer: {
-    borderWidth: 2,
-    borderColor: '#F1F1F1',
-    color: '#841584',
-    padding: '18',
-    height: '60',
-    width: '350',
-    margin: 20,
   },
 };

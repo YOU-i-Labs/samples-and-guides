@@ -8,7 +8,8 @@
 
 import React, { Component } from 'react';
 import { Composition, View, Button, ButtonRef, Text } from '@youi/react-native-youi';
-import { TouchableOpacity } from 'react-native';
+import { PixelRatio } from 'react-native';
+import { StyledButton } from '../../components/styledButton';
 
 export class FocusProps extends Component {
   constructor() {
@@ -20,19 +21,20 @@ export class FocusProps extends Component {
     return (
       <View style={{ flex: 1 }}>
         <View style={styles.container}>
-          <TouchableOpacity
-            style={styles.buttonContainer}
-            onPressIn={() => this.setState({ focused: 'TouchableOpacity' })}
-            onPressOut={() => this.setState({ blurred: 'TouchableOpacity' })}
-          >
-            <Text style={{ color:'#F1F1F1' }}>Touchable Opacity</Text>
-          </TouchableOpacity>
-          <Composition source="Training_Btn-Small-Container">
-            <ButtonRef name="Btn-Small"
-              onFocus={() => this.setState({ focused: 'ButtonRef' })}
-              onBlur={() => this.setState({ blurred: 'ButtonRef' })}
-            />
-          </Composition>
+          <StyledButton
+            title="TouchableOpacity"
+            onFocus={() => this.setState({ focused: 'TouchableOpacity' })}
+            onBlur={() => this.setState({ blurred: 'TouchableOpacity' })}
+          />
+          <View style={{ width: 350 / PixelRatio.get(), height: 60 / PixelRatio.get() }}>
+            <Composition source="Training_Btn-Small-Container">
+              <ButtonRef name="Btn-Small"
+                onFocus={() => this.setState({ focused: 'ButtonRef' })}
+                onBlur={() => this.setState({ blurred: 'ButtonRef' })}
+              />
+            </Composition>
+          </View>
+
           <View style={styles.buttonContainer}>
             {/* Button has no focus events */}
             <Button color="white" title="Button (No Focus)"/>

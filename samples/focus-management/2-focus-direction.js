@@ -7,7 +7,9 @@
  */
 
 import React, { Component } from 'react';
-import { View, Button, FocusManager } from '@youi/react-native-youi';
+import { View, FocusManager } from '@youi/react-native-youi';
+import { StyledButton } from '../../components/styledButton';
+
 
 export class FocusDirection extends Component {
   firstButton = React.createRef();
@@ -34,18 +36,15 @@ export class FocusDirection extends Component {
   render() {
     return (
       <View style={styles.container}>
-         <Button
-            color="white"
+         <StyledButton
             title="First Button"
             ref={this.firstButton}
           />
-          <Button
-            color="white"
+          <StyledButton
             title="Middle Button"
             ref={this.middleButton}
           />
-          <Button
-            color="white"
+          <StyledButton
             title="Last Button"
             ref={this.lastButton}
           />

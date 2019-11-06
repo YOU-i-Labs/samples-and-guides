@@ -7,7 +7,9 @@
  */
 
 import React, { Component } from 'react';
-import { Button, View, FocusManager, StyleSheet } from '@youi/react-native-youi';
+import { FocusManager, View, StyleSheet } from '@youi/react-native-youi';
+import { StyledButton } from '../../components/styledButton';
+
 
 export class FocusLock extends Component {
   firstRoot = React.createRef();
@@ -36,19 +38,19 @@ export class FocusLock extends Component {
     return (
       <View style={styles.container}>
         <View style={[styles.root, this.state.lockedSide === 'left' && styles.redBorder]} ref={this.firstRoot}>
-          <Button color="white" title="Lock Left"
+          <StyledButton title="Lock Left"
             ref={this.lockLeftButton}
             onPress={() => this.onPress(this.firstRoot.current, true, 'left')}
           />
-          <Button color="white" title="Unlock"
+          <StyledButton title="Unlock"
             onPress={() => this.onPress(this.firstRoot.current, false, '')}
           />
         </View>
         <View style={[styles.root, this.state.lockedSide === 'right' && styles.redBorder]} ref={this.secondRoot}>
-          <Button color="white" title="Lock Right"
+          <StyledButton title="Lock Right"
             onPress={() => this.onPress(this.secondRoot.current, true, 'right')}
           />
-          <Button color="white" title="Unlock"
+          <StyledButton title="Unlock"
             onPress={() => this.onPress(this.secondRoot.current, false, '')}
           />
         </View>
