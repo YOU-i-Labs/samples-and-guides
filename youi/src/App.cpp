@@ -8,14 +8,17 @@
 #include "App.h"
 
 #include <JSBundlingStrings.h>
-#include <appium/YiWebDriverLocator.h>
+#include <automation/YiWebDriverLocator.h>
 #include <cxxreact/JSBigString.h>
 #include <glog/logging.h>
 
+#if (YI_CLOUD_SERVER)
+  #include <YiCloudConfigModule.h>
+#endif
+#include <YiCloudModule.h>
+#include <youireact/modules/drm/FairPlayDrmHandlerModule.h>
 #include "../../samples/native-modules/cpp/1-native-module.h"
 #include "../../samples/native-modules/cpp/2-native-component.h"
-
-#include <youireact/modules/drm/FairPlayDrmHandlerModule.h>
 
 App::App() = default;
 
@@ -49,6 +52,10 @@ bool App::UserInit()
     GetReactNativeViewController().AddModule<NativeLogger>();
     GetReactNativeViewController().AddViewModule<NativeComponentSample>();
     GetReactNativeViewController().AddModule<FairPlayDrmHandlerModule>();
+    GetReactNativeViewController().AddModule<Cloud>();
+#if (YI_CLOUD_SERVER)
+    GetReactNativeViewController().AddModule<CloudConfig>();
+#endif
     return init;
 }
 

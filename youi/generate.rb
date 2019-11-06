@@ -42,11 +42,14 @@ class GenerateOptions
         options.iterate_jsbundle = false
         options.dev_jsbundle = false
         options.minify_jsbundle = false
-        options.ip_address = GetIpAddress()
+        options.ram_bundle = false
+        options.ip_address = nil
         options.jsbundle_directory = []
         options.jsbundle_file = []
         options.jsbundle_working_directory = nil
         options.jsbundle_staging_dir = nil
+        options.jsbundle_sourcemap_output = nil
+        options.jsbundle_config = nil
 
         platformList = ["Android", "Bluesky2", "Bluesky4", "Ios", "Linux", "Osx", "Ps4", "Tizen-Nacl", "Tvos", "Uwp", "Vs2017", "Webos3", "Webos4"]
         configurationList = ["Debug", "Release"]
@@ -187,6 +190,20 @@ class GenerateOptions
                 options.jsbundle_directory = directory
             end
 
+            opts.on("--ram_bundle",
+                    "If included, will use ram-bundle instead of bundle when using --local.") do
+                options.ram_bundle = true
+                options.use_jsbundle = true
+            end
+
+            opts.on("--sourcemap_output file", String, "File name to store the sourcemap for resulting bundle in, ex. /tmp/index.map") do |file|
+                options.jsbundle_sourcemap_output = file
+            end
+
+            opts.on("--bundler_configuration file", String, "Pass a config file to Metro, ex. path/to/config.js") do |file|
+                options.jsbundle_config = file
+            end
+
 
             opts.on_tail("-h", "--help", "Show usage and options list") do
                 puts opts
@@ -258,6 +275,22 @@ class GenerateOptions
                 end
             end
 
+            if(options.ram_bundle)
+                options.defines["YI_RAM_JS"]="ON"
+            end
+
+            unless(options.inline_jsbundle || options.use_jsbundle || options.ram_bundle)
+                manualIpPlatforms = ["osx", "linux", "vs2017"]
+
+                if (options.ip_address == nil)
+                  unless (manualIpPlatforms.include?(options.platform))
+                    options.ip_address = GetIpAddress()
+                  else
+                    options.ip_address = 'localhost'
+                  end
+                end
+                options.defines["YI_IP_CONFIG"] = options.ip_address
+            end
 
             # If any of these options aren't set we can try to get them from the package.json
             packagejson = nil
@@ -296,6 +329,7 @@ class GenerateOptions
                             options.remote_jsbundle = bundlemode == "remote"
                             options.inline_jsbundle = bundlemode == "inline"
                             options.use_jsbundle    = bundlemode == "local" || bundlemode == "inline"
+                            options.ram_bundle      = bundlemode == "ram_bundle"
                         end
                     end
                 end
@@ -318,7 +352,6 @@ class GenerateOptions
 
                 options.jsbundle_staging_dir = File.expand_path(File.join(options.build_directory, "Staging", "generated"))
 
-                options.defines["YI_IP_CONFIG"] = options.ip_address
                 options.defines["YI_LOCAL_JS"] = "ON"
                 options.defines["YI_REMOTE_JS"] = "OFF"
                 options.defines["YI_BUNDLED_ASSETS_DEST"] = File.expand_path(File.join(options.jsbundle_staging_dir, "bundled_assets"))
@@ -347,8 +380,8 @@ class GenerateOptions
                 options.defines["YI_REMOTE_JS"] = "ON"
                 options.defines["YI_LOCAL_JS"] = "OFF"
                 options.defines["YI_LOCAL_JS_INLINE"] = "OFF"
-                options.defines["YI_IP_CONFIG"] = options.ip_address
             end
+
 
             return options
         rescue OptionParser::ParseError => e
@@ -573,10 +606,8 @@ class GenerateOptions
             command << " --input_directories \"#{options.jsbundle_directory}\""
         end
 
-        if options.defines.has_key?("CMAKE_BUILD_TYPE") && options.dev_jsbundle
-            if options.defines["CMAKE_BUILD_TYPE"].match(/Debug/i)
-                command << " --dev"
-            end
+        if options.dev_jsbundle
+            command << " --dev"
         end
 
         output_dir = File.expand_path(File.join(options.jsbundle_staging_dir, "jsbundles"))
@@ -586,6 +617,18 @@ class GenerateOptions
             output_dir = File.expand_path(File.join(output_dir, "InlineJSBundleGenerated"))
         elsif options.minify_jsbundle
             command << " --minify"
+        end
+
+        if options.ram_bundle
+            command << " --ram_bundle"
+        end
+
+        if(options.jsbundle_sourcemap_output)
+            command << " --sourcemap_output \"#{options.jsbundle_sourcemap_output}\""
+        end
+
+        if(options.jsbundle_config)
+            command << " --config \"#{options.jsbundle_config}\""
         end
 
         command << " --output \"#{output_dir}\""
@@ -613,6 +656,11 @@ puts "  #{command}"
 puts ""
 puts "Platform: #{options.platform}"
 
+engine_dir = GenerateOptions.get_engine_dir(options)
+rn_script_name = "#{engine_dir}/tools/cli/scripts/create_nativemodules_cmake/index.js"
+if File.file?(rn_script_name)
+    system("node #{rn_script_name}")
+end
 if !options.generator.nil?
     puts "Generator: #{options.generator}"
 end
@@ -634,9 +682,9 @@ if command_result == false || command_result == nil
     end
     abort()
 end
-if options.use_jsbundle
+if options.use_jsbundle || options.defines['YI_LOCAL_JS'] == 'ON'
     puts "#=============================================="
-    if options.inline_jsbundle
+    if options.inline_jsbundle || options.defines['YI_LOCAL_JS_INLINE'] == 'ON'
         puts "inline bundling done using:"
     else
         puts "local bundling done using:"
@@ -646,7 +694,7 @@ if options.use_jsbundle
         (options.defines.key?('YI_DEFAULT_FILENAME_JS') ? "\n-- bundle filename: " + options.defines['YI_DEFAULT_FILENAME_JS'] : "")
 
     puts "#=============================================="
-elsif options.remote_jsbundle
+elsif options.remote_jsbundle || options.defines['YI_REMOTE_JS'] == 'ON'
     puts "#=============================================="
     puts "remote bundling done using: \n-- ip: #{options.ip_address}"+
         (options.defines.key?('YI_DEFAULT_FILENAME_JS') ? "\n-- bundle filename: " + options.defines['YI_DEFAULT_FILENAME_JS'] : "")

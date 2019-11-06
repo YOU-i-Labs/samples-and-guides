@@ -7,18 +7,15 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"@youi/react-native-youi": "5.5.0",
+		"@youi/react-native-youi": "5.8.0",
+		"axios": "^0.19.0",
 		"base-64": "^0.1.0",
-		"react": "16.3.0",
-		"react-native": "0.55.3"
+		"react": "16.6.3",
+		"react-native": "0.58.6"
 	},
 	"devDependencies": {
-		"babel-eslint": "^10.0.1",
-		"babel-jest": "^23.2.0",
-		"babel-preset-env": "^1.7.0",
-		"babel-preset-react": "^6.24.1",
-		"babel-preset-react-native": "4.0.0",
-		"babel-register": "^6.26.0",
+		"@babel/core": "7.0.0",
+		"babel-eslint": "^10.0.3",
 		"eslint": "^5.16.0",
 		"eslint-config-prettier": "^4.3.0",
 		"eslint-plugin-babel": "^5.2.1",
@@ -26,8 +23,9 @@
 		"eslint-plugin-jest": "^22.3.0",
 		"eslint-plugin-prettier": "^3.1.0",
 		"eslint-plugin-react": "^7.11.1",
-		"jest": "21.1.0",
-		"react-test-renderer": "16.0.0"
+		"jest": "^24.9.0",
+		"metro-react-native-babel-preset": "0.45.0",
+		"react-test-renderer": "16.6.3"
 	},
 	"jest": {
 		"preset": "@youi/react-native-youi",
@@ -35,12 +33,12 @@
 			"/node_modules/",
 			"/appium/"
 		]
-  },
-  "resolutions": {
+	},
+	"resolutions": {
 		"axios": "^0.19.0",
 		"lodash-es": "^4.17.14",
 		"lodash": "^4.17.13",
-    "mem": "4.0.0",
-    "eslint-utils": "^1.4.1"
+		"mem": "4.0.0",
+		"eslint-utils": "^1.4.1"
 	}
 }
