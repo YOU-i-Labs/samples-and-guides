@@ -36,6 +36,10 @@ Building the application for Roku is similar to how you would normally build you
 
 `./build.rb -b build/osx`
 
+On newer projects (6.1+) you should only have to run the following.
+
+`youi-tv build -p osx -d YI_BUILD_CLOUD_SERVER=ON`
+
 ## Running the App
 
 Once the app is build, navigate to the output folder: `youi/build/osx/{project}/[Debug|Release]`
@@ -59,8 +63,8 @@ Serving HTTP on 0.0.0.0 port 8000 ...
 
 Now that your application is running and waiting for connections, we can deploy and run the Roku client onto the device.
 
-Copy the Roku client to the project `youi` folder. The Roku client sits in the `~/youiengine/{version}/src/cloud_rokuclient` folder.
+Go into the `client` folder within your project directory.
 
-The Roku client comes preconfigured to get you up and running immediately. You will need the Roku IP address and the developer password if different from `youi`. Once you have all of the above simply run `./build.rb -l -r {rokuip} -u user:password`. If you used `youi` as the password, you don't need the `-u` parameter.
+The Roku client comes preconfigured to get you up and running immediately. You will need the Roku IP address and the developer password if different from `youi`. Once you have all of the above simply run `youi-tv roku-client -u rokudev:<roku_password> -l -s <roku_IP_address>`. If you used `youi` as the password, you don't need the `-u` parameter.
 
-> **Note** Please run `./build.rb --help` to see the full list of options available.
+> **Note** Please run `youi-tv roku-client --help` to see the full list of options available.
